@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+label{
+    width:100px;
+    display:inline-block;
+}
+#form{
+     border-radius:10px;
+     background:black;
+     color:white;
+     width:290px;
+     padding:4px;
+     }
+     h2{
+     text-align:center;
+     }
+     #submit{
+     width:100%;
+     margin-top:10px;
+     }
+</style>
+
+</head>
+<body>
+<div id="form">
+<h2>Add New Student</h2>
+<form action="addS" method="post">
+<label>Id</label>
+<input type="text" name="id"><br><br>
+<label>Name</label>
+<input type="text" name="name"><br><br>
+<label>Stream</label>
+<input type="text" name="stream"><br><br>
+<label>Fees</label>
+<input type="text" name="fees"><br><br>
+<br><input type="submit" name="Add" id="submit">
+</form>
+<br><a href="Student.html"><input type="submit" value="Back"></a>
+</div>
+</body>
+</html>
